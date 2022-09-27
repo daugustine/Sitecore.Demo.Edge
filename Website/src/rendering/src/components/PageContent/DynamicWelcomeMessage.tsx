@@ -27,6 +27,7 @@ const DynamicWelcomeMessage = (): JSX.Element => {
   const messageContent = message && (
     <section className="section dynamic-welcome-message">
       <div className="section-content container message-banner">
+        <span>Dennis made this change.</span>
         <span>{message}</span>
       </div>
     </section>
